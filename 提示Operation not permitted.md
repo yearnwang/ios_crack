@@ -51,3 +51,6 @@
         </plist>
     
     
+    
+    参考：
+    https://sskaje.me/operation-not-permitted/
