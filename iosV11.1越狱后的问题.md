@@ -18,8 +18,12 @@
             </dict>
         </plist>
     
-  3、签名：ARCH=arm64 jtool --sign --ent ent.xml helloworld
+  3、签名：
+  
+      ARCH=arm64 jtool --sign --ent ent.xml helloworld
+  
   4、运行：（必须放到/bin文件夹下）
+  
         iPhone:~ root# /tmp/helloworld 
         -sh: /tmp/helloworld: Operation not permitted
         iPhone:~ root# mv /tmp/helloworld /bin/
