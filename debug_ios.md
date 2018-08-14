@@ -23,10 +23,11 @@
 必须要有platform-application这个，要不然会显示killed错误。
 
 把上面的文件保存为ent.xml,用以下2个方法进行签名：
+```
 codesign -s - --entitlements entitlements.plist -f debugserver
 ldid -Sent.xml debugserver
 
-
+```
 
 
 
